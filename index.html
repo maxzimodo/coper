@@ -1,22 +1,366 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
-    />
+    /> -->
+    <link rel="stylesheet" href="bootstrap-grid.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Coper finance</title>
   </head>
   <body>
-    <h1>Coper finance</h1>
+    <!--navigation-->
+    <nav class="navigation">
+      <div class="navigation-logo"></div>
+      <ul class="navigation-list">
+        <li>
+          <a href="#about" class="hover-underline-animation">about us</a>
+        </li>
+        <li>
+          <a href="#borrow" class="hover-underline-animation"
+            >to borrow money</a
+          >
+        </li>
+        <li>
+          <a href="#lend" class="hover-underline-animation">to lend money</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--screen 1 splash-->
+    <main class="main-screen">
+      <section class="main-screen-wrapper">
+        <div class="phone"></div>
+        <div class="right-side">
+          <div class="logo"></div>
+          <h2 class="h2 slogan">
+            We assist people in challenging financial situations
+          </h2>
+          <p class="h3 description">
+            Coper P2P fintech project means co-operation between people all over
+            the planet
+          </p>
+          <section class="buttons">
+            <a href="#borrow" class="button primary">To borrow money</a>
+            <a href="#lend" class="button error">To lend money</a>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <!--screen 2 cards-->
+    <section class="screen ultra-dark">
+      <div class="container">
+        <div class="row screen-container">
+          <div class="col-sm-12 col-md-6 col-lg-4 card">
+            <span class="material-symbols-outlined primary">handshake</span>
+            <div class="card-right">
+              <h4 class="card-title">
+                Not just about monetary profit—it's about human cooperation
+              </h4>
+              <p class="p">
+                Just imagine: with your investments, you can change someone's
+                life, business, and contribute to truly significant endeavours
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 card">
+            <span class="material-symbols-outlined warning"
+              >currency_exchange</span
+            >
+            <div class="card-right">
+              <h4 class="card-title">
+                Invest with us: Empower change, support ventures
+              </h4>
+              <p class="p">
+                There are no limits, regardless of race, skin colour, location,
+                or socioeconomic status. Coper is a place for everyone
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 card">
+            <span class="material-symbols-outlined error">favorite</span>
+            <div class="card-right">
+              <h4 class="card-title">
+                Your reputation: the currency of success in Coper
+              </h4>
+              <p class="p">
+                No longer do you need to feel ashamed to ask your loved ones for
+                money before receiving your salary
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--screen 3 about us-->
+    <section class="screen" id="about">
+      <div class="container screen-container">
+        <div class="row gutterbottom-big">
+          <div class="col-sm">
+            <h2 class="h2 gutterbottom-md">be cooperative!</h2>
+            <p class="p gutterbottom">
+              The world today revolves around online interaction, with over 80%
+              of the population utilising various online services. However,
+              there's a common need that unites everyone: money. Regardless of
+              religion, race, or language, everyone requires financial means for
+              various purposes. Yet often, there's a crucial shortage of funds
+              when needed most.
+            </p>
+            <p class="p gutterbottom">
+              For instance, someone might need money to pay rent or buy
+              groceries, while for others, it's essential capital for a startup.
+              In a world where you can book a round-the-world trip from home,
+              why not have a service where people can help each other in
+              difficult times? That's precisely what Coper offers! After a quick
+              registration, you can access micro-loans provided by other
+              participants, bypassing banking checks. On the platform, both
+              borrowers and lenders register for mutually beneficial
+              cooperation.
+            </p>
+            <p class="p">
+              Coper is the future of financial services, where your credit
+              rating isn't as crucial as your ability to lend a hand or receive
+              help when needed.
+            </p>
+          </div>
+        </div>
+        <div class="row gutterbottom-big">
+          <div class="col-sm">
+            <h2 class="h2 gutterbottom-md">about us</h2>
+            <p class="p gutterbottom">
+              Coper was created by a team of promising developers forced to
+              leave Russia due to their disagreement with the war unleashed by
+              the Russian government in Ukraine. Facing challenges in finding a
+              new home and bureaucratic hurdles in settling elsewhere, Coper
+              emerged from the collaboration and results of adapting to a new
+              life beyond their homeland.
+            </p>
+            <p class="p gutterbottom">
+              The idea behind Coper arose from adapting to life in a new
+              environment, where people strive to help each other and contribute
+              to society. The name "Coper" is a contraction of "Cooperation,"
+              emphasizing interaction and support. Through their struggles, the
+              project's creators realized that the quickest way to solve
+              problems is to turn to specific individuals, friends, comrades,
+              rather than abstract organizations that might put you on a waiting
+              list. Only a specific person here and now can help solve an urgent
+              problem quickly and without unnecessary questions.
+            </p>
+            <p class="p">
+              The idea's author and project founder: Zakhar Ivachev. Co-founders
+              of the project: Maxim Odoevsky and Vasily Konstantinovsky.
+            </p>
+          </div>
+        </div>
+        <div class="row gutterbottom-big photos">
+          <div class="col-sm dot-contaner"><div class="dot"></div></div>
+          <div class="col-sm dot-contaner"><div class="dot"></div></div>
+          <div class="col-sm dot-contaner"><div class="dot"></div></div>
+
+          <div class="col-xs-1"><div class="avatar zakh"></div></div>
+          <div class="col-xs-1"><div class="avatar odo"></div></div>
+          <div class="col-xs-1"><div class="avatar bvoice"></div></div>
+          <div class="col-sm dot-contaner"><div class="dot"></div></div>
+          <div class="col-sm dot-contaner"><div class="dot"></div></div>
+          <div class="col-sm dot-contaner"><div class="dot"></div></div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="h2 gutterbottom-md">mission</h2>
+            <p class="p gutterbottom">
+              We aim to create a platform that unites people to provide
+              assistance and support in various aspects of life, especially in
+              challenging times. From supporting small businesses in Africa to
+              helping students pay for education, Coper assists people in
+              different corners of the world.
+            </p>
+            <p class="p gutterbottom">
+              On one hand, our service isn't just about facilitating credit
+              cooperation between two specific individuals but also about
+              providing assistance and support when needed. We're creating a
+              service that helps small businesses, students, mothers, fathers,
+              cultural and artistic figures in their hour of need, serving all
+              layers of society, regardless of race, nationality, citizenship,
+              or religion.
+            </p>
+            <p class="p gutterbottom">
+              On the other hand, our service involves investors, ensuring trust.
+              The program not only offers the opportunity to earn above-market
+              returns but also allows individuals to feel involved in doing
+              something genuinely good by providing assistance and support in
+              difficult times. After all, for someone, 100 euros might be just a
+              casino bet they'll lose with a 50% chance, while for someone else,
+              such as a small business owner in an African country, it could be
+              their weekly turnover, which could grow into something more
+              significant thanks to timely investments. Project Coper is a
+              cooperation platform born out of the need for help and support in
+              difficult times. We bring people together, offering the
+              opportunity to assist small businesses, students, families, and
+              other segments of society. Our mission is to promote cooperation
+              and create good deeds that benefit the entire world.
+            </p>
+            <p class="p">
+              Transparency and safety are our priorities. We develop strict
+              rules and checks to ensure safety and transparency for all project
+              participants, minimizing risks and guaranteeing trust.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--screen 4 to borrow money-->
+    <section class="screen lighter" id="borrow">
+      <div class="container screen-container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="h2 gutterbottom-big">to borrow money</h2>
+          </div>
+        </div>
+        <div class="row gutterbottom-big">
+          <div class="col-sm-1">
+            <div class="sign borrow"><span>1</span></div>
+          </div>
+          <div class="col-sm-3"><div class="phone ph1"></div></div>
+          <div class="col-sm-1">
+            <div class="sign borrow"><span>2</span></div>
+          </div>
+          <div class="col-sm-3"><div class="phone ph2"></div></div>
+          <div class="col-sm-1">
+            <div class="sign borrow"><span>3</span></div>
+          </div>
+          <div class="col-sm-3"><div class="phone ph3"></div></div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <ul class="list">
+              <li>
+                <p class="p">
+                  On the Coper platform, you can easily register and provide a
+                  loan to another participant on terms that are advantageous to
+                  you, surpassing global deposit standards.
+                </p>
+              </li>
+              <li>
+                <p class="p">
+                  Choose your borrower and get money from them immediately,
+                  avoiding unnecessary bureaucratic obstacles and cumbersome
+                  procedures.
+                </p>
+              </li>
+              <li>
+                <p class="p">
+                  In addition to high returns, you engage in true investments
+                  ina specific individual, their ideas, and activities, rather
+                  than anonymous corporations with undisclosed beneficiaries.
+                </p>
+              </li>
+              <li>
+                <p class="p">
+                  Behind every successful project is always a talented
+                  individual who occasionally needs your support. Believe in
+                  human capital, invest in specific individuals and their ideas,
+                  and become part of a mutually beneficial endeavour.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--screen 4 to lend money-->
+    <section class="screen" id="lend">
+      <div class="container screen-container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="h2 gutterbottom-big">to lend money</h2>
+          </div>
+        </div>
+        <div class="row gutterbottom-big">
+          <div class="col-sm-1">
+            <div class="sign lend"><span>1</span></div>
+          </div>
+          <div class="col-sm-3"><div class="phone ph4"></div></div>
+          <div class="col-sm-1">
+            <div class="sign lend"><span>2</span></div>
+          </div>
+          <div class="col-sm-3"><div class="phone ph5"></div></div>
+          <div class="col-sm-1">
+            <div class="sign lend"><span>3</span></div>
+          </div>
+          <div class="col-sm-3"><div class="phone ph6"></div></div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <ul class="list">
+              <li>
+                <p class="p">
+                  In this section, you can quickly register and request a
+                  micro-loan for any purpose from other participants of the
+                  Coper platform, bypassing unnecessary complexities.
+                </p>
+              </li>
+              <li>
+                <p class="p">
+                  There is no need to provide a lot of documents to check your
+                  credit history or solvency.
+                </p>
+              </li>
+              <li>
+                <p class="p">
+                  For regular use of our investor’s services, it is enough for
+                  you to monitor your rating.
+                </p>
+              </li>
+              <li>
+                <p class="p">
+                  Your reputation is your key to obtaining the necessary funds
+                  for your purposes in just a few minutes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="screen">
+      <div class="container screen-container">
+        <div class="row">
+          <div class="col-sm">
+            <footer class="footer">
+              <div>
+                <span id="currentYear"></span> Coper P2P fintech project
+              </div>
+              <script>
+                document.getElementById('currentYear').textContent =
+                  new Date().getFullYear();
+              </script>
+              <div>All rights reserved</div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="./index.js"></script>
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
@@ -25,6 +369,6 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
       integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </body>
 </html>

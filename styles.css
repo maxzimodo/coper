@@ -152,8 +152,8 @@ table {
   --s5: 64px;
   --nav-height: 72px;
   --h2: 42px;
-  --h3: 23px;
-  --p: 18px;
+  --h3: 24px;
+  --p: 21px;
 }
 /*---------common-----------*/
 .h2 {
@@ -360,7 +360,7 @@ body {
     max-width: 480px;
   }
   .description {
-    max-width: 384px;
+    max-width: 400px;
   }
   .buttons {
     margin-top: var(--s4);
